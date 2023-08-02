@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8c6a0cd143.js" crossorigin="anonymous"></script>
+    <title>Portafolio</title>
+</head>
+<body>
+    <nav>
+        <p>
+            <ul>
+                <li><a href="#experiencia">Experiencia profesional</a></li>
+                <li><a href="#skills">Habilidades y conocimientos</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#redes">Perfiles sociales</a></li>
+                <li><a href="#contacto">Contactar</a></li>
+            </ul>
+        </p>
+    </nav>
+    <header class="encabezado">
+        <div class="encabezado_datos">
+            <h1>Mauricio Machado</h1>
+            <p>
+                Soy una persona apasionada por la programación, los videojuegos, la música y el Windows 98 (estetica utilizad para la página). Disfruto de la lógica y la resolución de problemas que la programación ofrece, paso tiempo desarrollando software y explorando nuevas tecnologías. También me encanta sumergirme en los videojuegos, analizar su diseño y disfrutar de la experiencia de juego. La música es otra de mis pasiones, ya sea escuchando una amplia variedad de géneros o creando mi propia música.
+            </p>
+        </div>
+        <div class="encabezado_foto">
+            <img id="imagen_taza" src="tazajavascript.png" alt="taza de cafe con logo de JavaScript">
+        </div>
+    </header>
+    <div class="central">
+        <article class="articulo">
+            <h2 id="experiencia" class="subtitulos">Experiencia Profesional</h2>
+            <table>
+                <tr>
+                    <th>Empresa/Organización</th>
+                    <th>Cargo</th>
+                    <th>Localización</th>
+                    <th>Desde-Hasta</th>
+                </tr>
+                <tr>
+                    <td>La Verde RestoPub</td>
+                    <td>Atención al publico</td>
+                    <td>Araminda</td>
+                    <td>Noviembre 2014 - Marzo 2015</td>
+                </tr>
+                <tr>
+                    <td>Grido</td>
+                    <td>Atención al público</td>
+                    <td>Chuy</td>
+                    <td>Noviembre 2015 - Marzo 2016</td>
+                </tr>
+                <tr>
+                    <td>Mantex</td>
+                    <td>Envase</td>
+                    <td>Montevideo</td>
+                    <td>Abril 2016 - Octubre 2017</td>
+                </tr>
+                <tr>
+                    <td>Mantex</td>
+                    <td>Encargado</td>
+                    <td>Montevideo</td>
+                    <td>Junio 2016 - Agosto 2016</td>
+                </tr>
+                <tr>
+                    <td>Mantex</td>
+                    <td>Limpieza</td>
+                    <td>Montevideo</td>
+                    <td>Noviembre 2017 - Marzo 2019</td>
+                </tr>
+                <tr>
+                    <td>U.T.U.</td>
+                    <td>Docente de matemáticas</td>
+                    <td>Pando</td>
+                    <td>Marzo 2019 - Febrero 2022</td>
+                </tr>
+                <tr>
+                    <td>U.T.U.</td>
+                    <td>Docente de matemáticas</td>
+                    <td>Santa Lucia</td>
+                    <td>Marzo 2022 - Febrero 2023</td>
+                </tr>
+                <tr>
+                    <td>U.T.U.</td>
+                    <td>Docente de matemáticas</td>
+                    <td>Canelones</td>
+                    <td>Marzo 2022 - Febrero 2023</td>
+                </tr>
+                <tr>
+                    <td>U.T.U.</td>
+                    <td>Docente de matemáticas</td>
+                    <td>Atlántida</td>
+                    <td>Marzo 2023 - Actualidad</td>
+                </tr>
+            </table>
+            <h2 id="skills" class="subtitulos">Habilidades y conocimientos</h2>
+            <p>
+                <ul>
+                    <li><b>Desarrollo web:</b> HTML5, CSS3 y JavaScript.
+                </ul>
+            </p>
+            <h2 id="educacion" class="subtitulos">Educación</h2>
+            <table>
+                <tr>
+                    <th>Título</th>
+                    <th>Entidad</th>
+                    <th>Promoción</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo web</td>
+                    <td>Plan Ceibal (Jóvenes a programar)</td>
+                    <td>2023</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+    <footer class="piedepagina">
+        <div class="pie_redes">
+            <h2 id="redes" class="subtitulos">Perfiles sociales</h2>
+            <p>También puedes encontrarme en:</p>
+            <ul>
+              <li><a href="https://www.instagram.com/kroyyen/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href="https://twitter.com/kroyyen" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+              <li><a href="https://www.facebook.com/mauricio.machado.140/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+            </ul>
+        </div>
+        <div class="pie_contacto">
+            <h2 id="contacto" class="subtitulos">Contactar</h2>
+        <form>
+          De: <br><input type="text" required><br>
+          Temática: <br>
+          <select>
+              <option name="tematica" value="nulo" selected disabled>-- Elige un tema --</option>
+              <option name="tematica" value="consulta">Consulta</option>
+              <option name="tematica" value="propuesta">Propuesta</option>
+              <option name="tematica" value="reporte">Reporte</option>
+              <option name="tematica" value="otro">Otro</option>
+          </select><br>
+            Asunto: <br><input type="text" name="asunto" required><br>
+            Cuerpo: <br><textarea name="cuerpo" required></textarea>
+            <br><input type="submit" id="boton_enviar">
+        </form>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.encabezado {
+    background-color: #ff349a;
+    padding: 25px 5%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#imagen_taza {
+    width: 200px;
+    padding-top: 10px;
+    float: right;
+}
+
+.articulo {
+    background-color: #fdffff;
+    margin: 0% 5%;
+    padding-bottom: 25px;
+}
+
+.piedepagina {
+    background-color: #008080;
+    color: white;
+    padding: 0% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulos {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 2px;
+    background-color: #000000;
+    border-left: #000000 solid 2px;
+    border-right: #000000 solid 2px;
+    text-align: center;
+}
+
+th {
+    background-color: #008080;
+    color: white;
+}
+
+td {
+    background-color: #009090;
+    padding-left: 5px;
+    color: white;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+  
+#boton_enviar {
+    color: #000000;
+    background-color: #ff0081;
+    margin-top: 10px;
+    width: 150px;
+    margin: 10px auto 15px auto;
+    font-size: 17px;
+    border-radius: 5px;
+    border: #000000 2px solid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boton_enviar:hover {
+    background-color: #dc006e;
+    cursor: pointer;
+}
+
+.pie_redes li{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: white;
+}
+
+nav {
+    background-color: #008080;
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 0% 5%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 7px 0px;
+    border: 2px solid #006c6c;
+    background-color: #009090;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: all .5s;
+}
+  
+nav li:hover {
+    background-color: #000067;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ff0081;
+    text-align: center;
+    transition: 0.5s;
+}
+  
+nav li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+  
+nav li:hover > a {
+    color: white;
+}
+
+footer li, footer a {
+    color: white;
+}
